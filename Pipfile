@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[packages]
+Flask = "*"
+Flask-RESTful = "*"
+werkzeug = "*"
+flask-pymongo = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
